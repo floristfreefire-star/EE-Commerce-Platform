@@ -59,7 +59,7 @@ fetch('/api/cart/add', {
   method: 'POST',
   body: JSON.stringify({ productId: 123, quantity: 1 })
 });
-
+```
 ecommerce-platform/
 ├── src/
 │   ├── components/         
