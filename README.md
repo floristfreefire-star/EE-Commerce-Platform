@@ -208,10 +208,10 @@ Windows 10/11 (64-bit)
 
 ### Результаты тестирования
 Все отчеты о тестировании находятся в папке [testing/](testing/):
-- (testing/test_plan.md) - цели, методология, расписание
-- (testing/test_report.md) - результаты, статистика, метрики
-- (testing/feedback_summary.md) - опросы, интервью, выводы
-- (testing/issues.md) - баги, улучшения, roadmap
+- [(testing/test_plan.md)] - цели, методология, расписание
+- [(testing/test_report.md)] - результаты, статистика, метрики
+- [(testing/feedback_summary.md)] - опросы, интервью, выводы
+- [(testing/issues.md)] - баги, улучшения, roadmap
 
 ### Улучшения после тестирования
 На основе обратной связи были внесены следующие улучшения:
