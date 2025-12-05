@@ -21,3 +21,71 @@
 - Node.js 16+ или Java 11+
 - npm 8+ или Maven 3.6+
 - Git
+
+### Шаги установки
+
+**Для фронтенд-проекта (React):**
+```bash
+# Клонирование репозитория
+git clone https://github.com/username/ecommerce-platform.git
+cd ecommerce-platform
+
+# Установка зависимостей
+npm install
+
+# Запуск в режиме разработки
+npm start
+
+# Сборка для production
+npm run build
+
+# Клонирование репозитория
+git clone https://github.com/username/ecommerce-java.git
+cd ecommerce-java
+
+# Сборка проекта
+mvn clean package
+
+# Запуск приложения
+java -jar target/ecommerce-1.0.0.jar
+
+// Получение списка товаров
+fetch('/api/products')
+  .then(response => response.json())
+  .then(data => console.log(data));
+
+// Добавление товара в корзину
+fetch('/api/cart/add', {
+  method: 'POST',
+  body: JSON.stringify({ productId: 123, quantity: 1 })
+});
+
+ecommerce-platform/
+├── src/
+│   ├── components/         
+│   │   ├── ProductCard.js  
+│   │   ├── Cart.js        
+│   │   └── Header.js      
+│   ├── pages/             
+│   ├── services/          
+│   └── utils/             
+├── public/                
+├── docs/                  
+└── tests/                 
+
+## 🔧 ТЕХНИЧЕСКИЕ ТРЕБОВАНИЯ
+**Минимальные требования:**
+Операционная система: Windows 10 / macOS 10.14+ / Ubuntu 18.04+
+Память: 4 GB RAM
+Браузеры: Chrome 90+, Firefox 88+, Safari 14+
+Node.js: 16.14.0+
+npm: 8.3.0+
+Java: 11+ (для backend)
+База данных: PostgreSQL 12+ или MySQL 8+
+
+**Рекомендуемые требования:**
+**Операционная система: Windows 11 / macOS 12+ / Ubuntu 20.04+**
+- Память: 8 GB RAM
+- Процессор: 4-ядерный 2.5GHz+
+- Node.js: 18.0.0+
+- База данных: PostgreSQL 14+
